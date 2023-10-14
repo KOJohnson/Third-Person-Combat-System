@@ -11,17 +11,18 @@ A template to create a third person melee game.
 > I am currently working on a version that works with the built-in Animator.
 
 ## Contents
-* Finite State Machine
-  * Base State
-  * State Factory
-  * State Machine Controller
-* Character Controller
-  * Third Person Controller
-  * Input Manager
-  * Camera Controller 
-* Weapons
-  * Events
-  * Damage System
+* [Finite State Machine](#finite-state-machine)
+  * [Base State](#base-state)
+  * [State Factory](#state-factory)
+  * [State Machine Controller](#state-machine-controller)
+* [Character Controller](#character-controller)
+  * [Third Person Controller](#third-person-controller)
+  * [Input Manager](#input-manager)
+  * [Camera Controller](#camera-controller)
+* [Weapons](#weapons)
+  * [Weapon Manager](#weapon-manager)
+  * [Weapon Events](#weapon-events)
+  * [Damage System](#damage-system)
 
 <br>
 <br>
@@ -43,9 +44,13 @@ A template to create a third person melee game.
 
 ### Camera Controller
 
+### Animation Manager
+
 ## Weapons
 
-### Events
+### Weapon Manager
+
+### Weapon Events
 
 ### Damage System
 
