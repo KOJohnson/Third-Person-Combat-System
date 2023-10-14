@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a472a4806da7f9147a4a5cd7eee170df, type: 3}
+  m_Name: Combat Mixer
+  m_EditorClassIdentifier: 
+  _Transition:
+    rid: 528612535873568769
+  references:
+    version: 2
+    RefIds:
+    - rid: 528612535873568769
+      type: {class: LinearMixerTransition, ns: Animancer, asm: Animancer}
+      data:
+        _FadeDuration: 0.25
+        _Events:
+          _NormalizedTimes: []
+          _Callbacks: []
+          _Names: []
+        _Speed: 1
+        _Animations:
+        - {fileID: -203655887218126122, guid: b1ffb3fca2c307749b5ad1f760c1bc30, type: 3}
+        - {fileID: -203655887218126122, guid: 7d35cdb11d5bf0e4b94d0356bd7264e8, type: 3}
+        - {fileID: -203655887218126122, guid: 0c8bc3474d2c55940913901b5da4e6c1, type: 3}
+        - {fileID: -203655887218126122, guid: 0c8bc3474d2c55940913901b5da4e6c1, type: 3}
+        _Speeds:
+        - 1
+        - 1
+        - 0.7
+        - 1
+        _SynchronizeChildren: 00
+        _Thresholds:
+        - 0
+        - 1
+        - 2
+        - 3
+        _DefaultParameter: 0
+        _ExtrapolateSpeed: 0

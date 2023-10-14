@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd870d3409e40cdb7c5c6b6480dc2cd, type: 3}
+  m_Name: Normal Locomotion
+  m_EditorClassIdentifier: 
+  locomotionMixer:
+    _Asset: {fileID: 11400000, guid: 987c47023f0de7943acd1a19eb4df5af, type: 2}
+  walkStart:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  jogStart:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  runStart:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  walkStop:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  jogStop:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  runStop:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  jumpStart:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  jumpLoop:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
+  jumpEnd:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 0}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+    UseRootMotion: 0
+    IsInteracting: 0
+    IsSticky: 0
